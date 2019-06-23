@@ -1,0 +1,23 @@
+﻿@model Interns.Core.Data.Advertise
+
+<div class="well">
+    <h3>
+        <strong> @Model.Title</strong> - <i> @Model.User.UserName</i>
+    </h3>
+    
+    <div class="lead"><i>@Model.Details</i></div>
+
+    <div class="lead">
+        @Model.City
+        <span class="pull-right">
+            Domain:
+            <i>
+                @Model.Domain.Name, @Model.SubDomain.Name
+            </i>
+        </span>
+    </div>
+
+    <div class="pull-left label label-primary">Date Created: @Model.CreateDate</div>
+    <span class="pull-right label label-primary"> Application Deadline: @Model.EndDate</span>
+</div>
+

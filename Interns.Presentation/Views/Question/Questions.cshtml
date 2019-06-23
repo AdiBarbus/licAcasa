@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Interns.Core.Data.Question>
+
+@{
+    ViewBag.Title = "Questions";
+}
+
+<h2>Questions</h2>
+
+
+<div class="panel panel-default">
+    <table class="table table-striped table-condensed table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Quest)
+            </th>
+
+            @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <th>
+                    Actions
+                </th>
+            }
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quest)
+                </td>
+
+                @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "EditQuestion", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "DeleteQuestion", new { id = item.Id })
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+
+@if (Request.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <div> @Html.ActionLink("Add Question", "SelectQuestionsFK", null, new { @class = "btn btn-default" }) </div>
+}
+<div class="text-right">
+    <a href="javascript:history.back()">Back</a>
+</div>

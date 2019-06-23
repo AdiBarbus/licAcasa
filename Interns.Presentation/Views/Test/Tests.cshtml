@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Interns.Core.Data.Test>
+
+@{
+    ViewBag.Title = "Tests";
+}
+
+<h2>Choose a test you want to take</h2>
+
+<div class="panel panel-default">
+    <table class="table table-striped table-condensed table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+
+            @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <th>
+                    Actions
+                </th>
+            }
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+
+                @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "EditTest", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "DeleteTest", new { id = item.Id })
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+
+@if (Request.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <div> @Html.ActionLink("Add Test", "CreateTest", null, new { @class = "btn btn-default" }) </div>
+}
+<div class="text-right">
+    <a href="javascript:history.back()">Back</a>
+</div>

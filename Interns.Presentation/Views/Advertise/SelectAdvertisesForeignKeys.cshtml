@@ -1,0 +1,37 @@
+﻿@model Interns.Services.Models.SelectFK.SelectAdvertisesFKs
+
+@{
+    ViewBag.Title = "Select AdvertiseFKs";
+}
+
+<h2>Choose Options</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <span class="control-label col-md-3 ">
+                @Html.DropDownListFor(m => m.SelectedDomainId,
+                    new SelectList(Model.Domains, "Id", "Name"), "-- Select Domain --")
+            </span>
+            <span class="control-label col-md-3 ">
+                @Html.DropDownListFor(m => m.SelectedUserId,
+                    new SelectList(Model.Users, "Id", "UserName"), "--Select User--")
+            </span>
+            <span class="control-label col-md-3 ">
+                @Html.DropDownListFor(m => m.SelectedSubDomainId,
+                    new SelectList(Model.SubDomains, "Id", "Name"), "--Select SubDomain--")
+            </span>
+        </div>
+        
+        <div class="control-label col-md-2 pull-left">
+            <input type="submit" value="Select"/>
+        </div>
+    </div>
+}

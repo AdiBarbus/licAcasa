@@ -1,0 +1,53 @@
+﻿@model Interns.Services.Models.QAModelView
+
+@{
+    ViewBag.Title = "Questions and Answers";
+}
+
+<h2>Prepare for an upcoming test</h2>
+
+@using (Html.BeginForm("Domains", "Domain", FormMethod.Get))
+{
+    <p>
+        Find by name: @Html.TextBox("stringSearch")
+        <input type="submit" value="Search" />
+    </p>
+}
+
+<div class="panel panel-default">
+    <table class="table table-striped table-condensed table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Questions)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Answers)
+            </th>
+        </tr>
+
+        @foreach (var item in Model.Questions)
+        {
+            foreach (var item2 in Model.Answers.Where(e=>e.QuestionId == item.Id))
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quest)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item2.Ans)
+                    </td>                   
+                </tr>
+            }
+
+        }
+    </table>
+</div>
+
+@if (Request.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <div> @Html.ActionLink("Add Q&A", "SelectQasForeignKeys", null, new { @class = "btn btn-default" }) </div>
+}
+
+<div class="text-right">
+    <a href="javascript:history.back()">Back</a>
+</div>

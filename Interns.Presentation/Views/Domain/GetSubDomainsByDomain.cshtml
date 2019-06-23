@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Interns.Core.Data.SubDomain>
+
+@{
+    ViewBag.Title = "SubDomains";
+}
+
+<h2>Subdomains:</h2>
+
+<table class="table">
+    <tr>
+        <th>Subdomain</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditDomain", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "DeleteDomain", new { id = item.Id })
+            </td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Back to List", "Domains","Domain")
+</div>

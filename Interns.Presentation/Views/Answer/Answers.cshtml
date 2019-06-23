@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Interns.Core.Data.Answer>
+
+@{
+    ViewBag.Title = "Answers";
+}
+
+<h2>Answers</h2>
+
+
+<div class="panel panel-default">
+    <table class="table table-striped table-condensed table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ans)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCorrect)
+            </th>
+
+            @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <th>
+                    Actions
+                </th>
+            }
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ans)
+                </td>
+                <td>
+                    @if (item.IsCorrect == true)
+                    {
+                        <text>Yes</text> }
+                    else
+                    {
+                        <text>No</text>}
+                </td>
+
+                @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "EditAnswer", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "DeleteAnswer", new { id = item.Id })
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+
+@if (Request.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <div> @Html.ActionLink("Add Answer", "SelectQuestion", null, new { @class = "btn btn-default" }) </div>
+}
+
+<div class="text-right">
+    <a href="javascript:history.back()">Back</a>
+</div>

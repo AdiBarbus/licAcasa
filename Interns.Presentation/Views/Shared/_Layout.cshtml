@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Intrns</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<p class = "navbar-brand">
+                    <a href="@Url.Action("Advertises", "Advertise")">
+                        <img src="~/Content/internsLogo.png" alt=""/>
+                    </a>
+                </p>*@
+            </div>
+
+            @if (!Request.IsAuthenticated)
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Domain/Domains">Domains</a></li>
+                        <li><a href="/SubDomain/SubDomains">SubDomains</a></li>
+                        <li><a href="/Advertise/Advertises">Advertises</a></li>
+                        @*<li><a href="/QA/QAs">Questions and Answers</a></li>*@
+                        <li><a href="/Test/Tests">Tests</a></li>
+                        <li><a href="/Question/Questions">Questions</a></li>
+                        <li><a href="/Answer/Answers">Answers</a></li>
+                        <li style="padding-left: 400px"><a href="/Register/SelectRole"> Register </a></li>
+                        <li><a href="/Login/Login"> Login </a></li>
+                    </ul>
+                </div>
+            }
+
+            @if (Request.IsAuthenticated && User.IsInRole("Admin"))
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/User/Users">Users</a></li>
+                        <li><a href="/Domain/Domains">Domains</a></li>
+                        <li><a href="/SubDomain/SubDomains">SubDomains</a></li>
+                        <li><a href="/Advertise/Advertises">Advertises</a></li>
+                        @* <li><a href="/QA/QAs">Questions and Answers</a></li>*@
+                        <li><a href="/Test/Tests">Tests</a></li>
+                        <li><a href="/Question/Questions">Questions</a></li>
+                        <li><a href="/Answer/Answers">Answers</a></li>
+                        <li style="padding-left: 300px"><a href="">Hello, @Html.Encode(User.Identity.Name)</a></li>
+                        <li><a href="/Login/Logout"> Log Out </a></li>
+                    </ul>
+                </div>
+            }
+
+            @if (Request.IsAuthenticated && !User.IsInRole("Admin"))
+            {
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="/Domain/Domains">Domains</a></li>
+                        <li><a href="/SubDomain/SubDomains">SubDomains</a></li>
+                        <li><a href="/Advertise/Advertises">Advertises</a></li>
+                        @*<li><a href="/QA/QAs">Questions and Answers</a></li>*@
+                        <li><a href="/Test/Tests">Tests</a></li>
+                        <li><a href="/Question/Questions">Questions</a></li>
+                        <li><a href="/Answer/Answers">Answers</a></li>
+                        <li style="padding-left: 200px"><a href="">Hello, @Html.Encode(User.Identity.Name)</a></li>
+                        <li><a href="/Login/ChangePassword">Change Password</a></li>
+                        <li><a href="/Login/Logout"> Log Out </a></li>
+                    </ul>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

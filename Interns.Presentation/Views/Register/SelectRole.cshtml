@@ -1,0 +1,30 @@
+﻿@model Interns.Services.Models.SelectFK.SelectRoleViewModel
+@{
+    ViewBag.Title = "Select Role";
+}
+
+<h2>Please choose your role</h2>
+<hr/>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "Account creation was unsuccessful. Please correct the errors and try again.")
+        <fieldset>
+
+            <div class="form-group">
+                <div class="control-label col-md-2 ">
+                    @Html.DropDownListFor(m => m.SelectedRoleId,
+                        new SelectList(Model.Roles, "Id", "Name"), "-- Select Role --")
+                </div>
+            </div>
+
+            <div class="control-label col-md-2">
+                <input type="submit" value="Choose"/>
+            </div>
+
+        </fieldset>
+    </div>
+}

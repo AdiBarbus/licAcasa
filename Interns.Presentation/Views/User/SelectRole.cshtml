@@ -1,0 +1,44 @@
+﻿@model InternsDataAccessLayer.Entities.Role
+
+@{
+    ViewBag.Title = "SelectRoleViewModel";
+}
+
+<h2>SelectRole</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <hr />
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Type, new { @class = "control-label col-md-2" })
+        <div class="col-md-10 form-horizontal">
+            @Html.DropDownList("RoleType")
+            @Html.ValidationMessageFor(model => model.Type, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+    <div>
+        @if (@Model.Type == "Student")
+        {
+            @Html.ActionLink("Choose", "Create", "User")
+        }
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "GetAll", "User")
+</div>
