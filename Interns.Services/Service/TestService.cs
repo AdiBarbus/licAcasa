@@ -9,10 +9,12 @@ namespace Interns.Services.Service
     public class TestService : ITestService
     {
         private readonly IRepository<Test> repository;
+        private readonly IRepository<Question> questionRepository;
 
-        public TestService(IRepository<Test> repo)
+        public TestService(IRepository<Test> repo, IRepository<Question> questionRepo)
         {
             repository = repo;
+            questionRepository = questionRepo;
         }
 
       
@@ -21,6 +23,18 @@ namespace Interns.Services.Service
             try
             {
                 return repository.GetAll();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public IQueryable<Question> GetQuestionsByTests(int testId)
+        {
+            try
+            {
+                return questionRepository.GetAll().Where(e => e.TestId == testId);
             }
             catch (Exception e)
             {

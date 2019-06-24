@@ -24,7 +24,7 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Name)
+                    @Html.ActionLink(item.Name, "TakeTest", "Test", new { testId = item.Id }, null)
                 </td>
 
                 @if (Request.IsAuthenticated && User.IsInRole("Admin"))

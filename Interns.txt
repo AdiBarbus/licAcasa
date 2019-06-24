@@ -1,288 +1,99 @@
-2019-06-23 09:57:03,115 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 09:57:05,937 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 09:57:05,948 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 09:57:50,296 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 09:57:52,732 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 09:57:52,738 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 09:57:54,174 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 09:57:54,180 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 09:58:15,280 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 09:58:17,755 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 09:58:17,760 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 09:58:20,484 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 09:58:20,490 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 09:58:55,612 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 09:58:58,063 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 09:58:58,069 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:01:04,493 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:01:21,814 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 10:01:21,820 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:01:57,605 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 10:02:00,442 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 10:02:00,447 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:02:04,584 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 10:02:04,591 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:02:29,074 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 10:02:31,525 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 10:02:31,532 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:03:26,573 DEBUG Interns.Presentation.Controllers.DomainController - Creating new Domain
-2019-06-23 10:03:26,616 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:03:32,255 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 10:03:37,616 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:53:44,385 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:53:50,895 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the QAs
-2019-06-23 10:55:42,298 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:55:45,287 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the QAs
-2019-06-23 10:55:51,976 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 10:55:51,986 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:55:53,187 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the QAs
-2019-06-23 10:56:42,024 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:56:44,729 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the QAs
-2019-06-23 10:57:03,016 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 10:57:05,461 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 10:57:05,472 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 10:57:06,864 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the QAs
-2019-06-23 10:57:52,163 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the QAs
-2019-06-23 11:10:07,123 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:10:10,310 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 11:10:23,019 DEBUG Interns.Presentation.Controllers.TestController - Creating new Test
-2019-06-23 11:10:23,085 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 11:16:44,001 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 11:16:44,006 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:16:46,729 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 11:16:49,013 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:16:50,048 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 11:21:46,519 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:21:50,060 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 11:21:54,695 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 11:21:57,185 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 11:21:57,195 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:21:59,064 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 11:22:39,179 DEBUG Interns.Presentation.Controllers.TestController - Updating Softvision .Net
-2019-06-23 11:22:39,216 INFO Interns.Presentation.Controllers.TestController - Softvision .Net was updated succesfully
-2019-06-23 11:22:39,221 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 11:55:56,979 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:56:24,148 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 11:56:26,280 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 11:56:34,730 DEBUG Interns.Presentation.Controllers.QuestionController - Updating Question 11
-2019-06-23 11:56:34,828 INFO Interns.Presentation.Controllers.QuestionController - Question 11 was updated succesfully
-2019-06-23 11:56:34,853 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:06:22,976 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:06:26,068 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:06:56,108 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:06:59,403 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:07:09,918 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
-2019-06-23 12:07:09,965 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:10:00,152 DEBUG Interns.Presentation.Controllers.QuestionController - Updating Cat fac 2 si cu 22
-2019-06-23 12:10:00,188 INFO Interns.Presentation.Controllers.QuestionController - Cat fac 2 si cu 22 was updated succesfully
-2019-06-23 12:10:00,194 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:10:01,594 DEBUG Interns.Presentation.Controllers.QuestionController - Deleting 
-2019-06-23 12:10:01,605 INFO Interns.Presentation.Controllers.QuestionController -  was deleted succesfully
-2019-06-23 12:10:01,611 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:14:31,939 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:15:10,885 DEBUG Interns.Presentation.Controllers.DomainController - Deleting 
-2019-06-23 12:15:10,897 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:15:19,927 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 12:15:19,933 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:15:34,755 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 12:15:37,185 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 12:15:37,190 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:15:43,800 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 12:15:43,805 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:15:49,768 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 12:15:52,204 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 12:15:52,209 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:15:56,084 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 12:15:56,090 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:16:04,168 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 12:16:06,622 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 12:16:06,627 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:16:07,556 DEBUG Interns.Presentation.Controllers.SubDomainController - Started getting all the Subdomains
-2019-06-23 12:16:14,455 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 12:16:14,460 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:16:23,454 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 12:16:27,926 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 12:16:39,540 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:16:40,793 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 12:16:57,063 DEBUG Interns.Presentation.Controllers.SubDomainController - Started getting all the Subdomains
-2019-06-23 12:40:02,578 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:40:07,468 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:40:12,907 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 12:40:15,360 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 12:40:15,369 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:40:16,481 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:41:10,121 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:41:12,447 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:41:28,583 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
-2019-06-23 12:41:28,718 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:41:31,226 DEBUG Interns.Presentation.Controllers.AnswerController - Deleting 
-2019-06-23 12:41:31,235 INFO Interns.Presentation.Controllers.AnswerController -  was deleted succesfully
-2019-06-23 12:41:57,567 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 12:42:01,732 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:42:07,512 DEBUG Interns.Presentation.Controllers.AnswerController - Updating Q1 Ans 43
-2019-06-23 12:42:07,546 INFO Interns.Presentation.Controllers.AnswerController - Q1 Ans 43 was updated succesfully
-2019-06-23 12:42:07,580 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:42:10,424 DEBUG Interns.Presentation.Controllers.AnswerController - Deleting 
-2019-06-23 12:42:10,431 INFO Interns.Presentation.Controllers.AnswerController -  was deleted succesfully
-2019-06-23 12:42:10,436 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:42:18,631 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
-2019-06-23 12:42:18,663 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 12:42:20,072 DEBUG Interns.Presentation.Controllers.AnswerController - Deleting 
-2019-06-23 12:42:20,077 INFO Interns.Presentation.Controllers.AnswerController -  was deleted succesfully
-2019-06-23 12:42:20,084 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:03:12,475 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:19:53,725 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:19:59,711 DEBUG Interns.Presentation.Controllers.SubDomainController - Started getting all the Subdomains
-2019-06-23 16:20:03,513 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the Domains
-2019-06-23 16:20:05,141 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:20:05,903 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 16:22:20,252 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:22:22,906 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 16:22:45,722 DEBUG Interns.Presentation.Controllers.QaController - Creating new Q&A
-2019-06-23 16:22:45,762 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 16:22:48,691 DEBUG Interns.Presentation.Controllers.QaController - Deleting 
-2019-06-23 16:22:48,699 INFO Interns.Presentation.Controllers.QaController -  was deleted succesfully
-2019-06-23 16:22:48,704 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 16:22:58,266 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 16:22:58,272 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:23:00,649 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 16:24:14,267 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:24:18,378 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:24:26,452 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 16:24:28,952 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 16:24:28,962 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:24:30,015 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:25:55,636 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:26:02,293 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:27:17,530 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:27:21,841 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:42:27,772 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:42:30,639 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:42:46,320 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:42:55,945 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:42:59,773 DEBUG Interns.Presentation.Controllers.AnswerController - Updating Q1 Ans 3
-2019-06-23 16:42:59,789 INFO Interns.Presentation.Controllers.AnswerController - Q1 Ans 3 was updated succesfully
-2019-06-23 16:42:59,796 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 16:43:23,343 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 16:43:23,349 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:45:01,660 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:46:28,445 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:46:31,199 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:46:46,736 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:56:09,028 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:56:10,285 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:56:10,869 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:56:11,180 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:56:17,764 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:56:36,488 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 16:58:03,236 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:03:36,011 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:03:52,003 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:03:52,157 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:04:34,837 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:04:37,226 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:04:37,250 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:05:38,595 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:05:43,327 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:05:43,349 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:08:17,911 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:08:22,538 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:08:22,561 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:08:42,949 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:08:45,725 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:08:45,749 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:10:06,189 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:10:37,637 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:10:37,658 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:11:20,992 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:11:48,931 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:13:21,602 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:13:30,749 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:13:53,759 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:14:05,542 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:16:30,520 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:16:34,234 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:16:34,258 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:18:16,464 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:18:17,999 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 18:18:23,482 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
-2019-06-23 18:18:26,441 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
-2019-06-23 18:18:26,451 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:18:28,003 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 18:18:44,485 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:30:00,756 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:30:04,054 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:30:24,311 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
-2019-06-23 18:30:24,379 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:30:34,947 DEBUG Interns.Presentation.Controllers.QuestionController - Updating JavaScript ii pt cacati
-2019-06-23 18:30:35,019 INFO Interns.Presentation.Controllers.QuestionController - JavaScript ii pt cacati was updated succesfully
-2019-06-23 18:30:35,025 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:36:28,137 DEBUG Interns.Presentation.Controllers.QuestionController - Deleting 
-2019-06-23 18:36:28,174 INFO Interns.Presentation.Controllers.QuestionController -  was deleted succesfully
-2019-06-23 18:36:28,180 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:36:43,213 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:36:46,322 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:37:05,197 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
-2019-06-23 18:37:05,239 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:38:48,132 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 18:38:59,516 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:39:04,531 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:39:04,545 ERROR Interns.Presentation.Controllers.QaController - System.NullReferenceException: Object reference not set to an instance of an object.
-   at Interns.Presentation.Controllers.QaController.Qas() in E:\licenta\interns-Adrian\Interns.Presentation\Controllers\QaController.cs:line 37
-2019-06-23 18:40:07,399 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:41:26,291 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:41:29,905 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 18:45:56,995 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 18:46:05,616 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 21:02:23,693 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 21:02:32,407 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 21:02:58,197 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 21:03:07,930 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 21:03:11,478 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 21:03:13,008 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 21:03:28,320 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 21:03:30,706 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 21:03:37,724 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 21:04:51,760 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 21:04:54,891 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 21:04:56,115 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 22:00:54,736 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:01:01,823 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 22:03:35,785 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:03:51,495 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:04:07,804 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
-2019-06-23 22:04:07,877 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:04:12,090 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:04:13,110 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 22:08:25,448 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 22:12:28,550 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
-2019-06-23 22:12:36,663 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 22:12:39,053 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:13:46,844 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:16:08,819 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:16:10,726 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:18:43,607 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:23:30,000 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:23:32,933 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
-2019-06-23 22:23:35,423 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 22:24:24,764 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:24:27,707 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
-2019-06-23 22:24:33,784 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
-2019-06-23 22:24:45,056 DEBUG Interns.Presentation.Controllers.UserController - Started getting all the Users
-2019-06-23 22:24:47,713 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the Domains
-2019-06-23 22:24:50,009 DEBUG Interns.Presentation.Controllers.SubDomainController - Started getting all the Subdomains
-2019-06-23 22:24:53,579 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:25:46,111 DEBUG Interns.Presentation.Controllers.DomainController - Creating new Domain
-2019-06-23 22:25:46,200 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:25:52,091 INFO Interns.Presentation.Controllers.LoginController - You were logged out succesfully
-2019-06-23 22:25:52,097 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
-2019-06-23 22:26:38,657 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 19:52:47,791 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 19:52:53,415 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
+2019-06-24 19:53:24,328 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:53:25,648 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 19:53:33,280 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 19:53:41,075 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 19:57:41,548 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 19:57:46,153 DEBUG Interns.Presentation.Controllers.LoginController - Started validating user credentials
+2019-06-24 19:57:48,596 INFO Interns.Presentation.Controllers.LoginController - User credentials are valid!
+2019-06-24 19:57:48,607 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 19:57:50,782 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:58:00,016 DEBUG Interns.Presentation.Controllers.QuestionController - Deleting 
+2019-06-24 19:58:00,062 INFO Interns.Presentation.Controllers.QuestionController -  was deleted succesfully
+2019-06-24 19:58:00,067 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:58:01,133 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 19:58:07,695 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:58:29,733 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
+2019-06-24 19:58:29,774 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:58:35,553 DEBUG Interns.Presentation.Controllers.QuestionController - Updating Question 1
+2019-06-24 19:58:35,581 INFO Interns.Presentation.Controllers.QuestionController - Question 1 was updated succesfully
+2019-06-24 19:58:35,586 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:58:49,071 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
+2019-06-24 19:58:49,121 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:58:54,676 DEBUG Interns.Presentation.Controllers.QuestionController - Updating Question1
+2019-06-24 19:58:54,696 INFO Interns.Presentation.Controllers.QuestionController - Question1 was updated succesfully
+2019-06-24 19:58:54,702 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:59:07,471 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
+2019-06-24 19:59:07,515 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:59:18,702 DEBUG Interns.Presentation.Controllers.QuestionController - Creating new Question
+2019-06-24 19:59:18,733 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 19:59:28,868 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 19:59:40,441 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 19:59:40,466 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 19:59:58,428 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 19:59:58,471 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:00:07,902 DEBUG Interns.Presentation.Controllers.AnswerController - Updating Q1 Ans 4
+2019-06-24 20:00:08,042 INFO Interns.Presentation.Controllers.AnswerController - Q1 Ans 4 was updated succesfully
+2019-06-24 20:00:08,047 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:00:22,579 DEBUG Interns.Presentation.Controllers.AnswerController - Updating Q2 Ans 1
+2019-06-24 20:00:22,696 INFO Interns.Presentation.Controllers.AnswerController - Q2 Ans 1 was updated succesfully
+2019-06-24 20:00:22,701 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:00:31,805 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:00:31,917 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:00:36,424 DEBUG Interns.Presentation.Controllers.AnswerController - Deleting 
+2019-06-24 20:00:36,429 INFO Interns.Presentation.Controllers.AnswerController -  was deleted succesfully
+2019-06-24 20:00:36,435 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:00:44,763 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:00:44,783 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:00:56,479 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:00:56,523 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:01:07,676 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:01:07,709 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:01:15,566 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:01:15,588 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:01:26,670 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:01:26,690 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:01:35,704 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:01:35,767 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:01:44,303 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:01:44,337 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:01:54,117 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:01:54,130 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:02:02,767 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:02:02,791 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:02:10,150 DEBUG Interns.Presentation.Controllers.AnswerController - Creating Answer
+2019-06-24 20:02:10,169 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 20:02:13,375 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 20:02:14,815 DEBUG Interns.Presentation.Controllers.QaController - Started getting all the QAs
+2019-06-24 20:03:17,481 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 20:25:02,138 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 20:28:47,660 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 20:28:52,278 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the Domains
+2019-06-24 20:28:58,977 DEBUG Interns.Presentation.Controllers.DomainController - Getting the adverise with the domain id:3
+2019-06-24 21:06:19,595 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 21:06:25,434 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 21:06:27,802 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:07:13,686 DEBUG Interns.Presentation.Controllers.QuestionController - Started getting all the Questions
+2019-06-24 21:07:14,857 DEBUG Interns.Presentation.Controllers.AnswerController - Started getting the Answer
+2019-06-24 21:07:16,460 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 21:08:41,664 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 21:08:52,907 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:17:36,698 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 21:17:50,011 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 21:17:56,866 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:25:55,174 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 21:26:00,642 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 21:26:01,797 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:27:27,650 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:28:22,614 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 21:29:41,962 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 21:29:42,993 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:43:55,209 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:44:31,351 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:44:44,181 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:53:13,715 DEBUG Interns.Presentation.Controllers.DomainController - Started getting all the advertises
+2019-06-24 21:53:20,373 DEBUG Interns.Presentation.Controllers.TestController - Started getting all the Tests
+2019-06-24 21:53:21,958 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:2
+2019-06-24 21:53:26,496 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1
+2019-06-24 21:53:59,746 DEBUG Interns.Presentation.Controllers.TestController - Getting the adverise with the domain id:1

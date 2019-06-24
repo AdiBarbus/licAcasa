@@ -67,7 +67,6 @@ namespace Interns.Presentation.Controllers
             return View(model);
         }
         
-
         [HttpGet]
         [Route("domain/GetSubDomainByDomain/{domainId}")]
         public ActionResult GetSubDomainsByDomain(int domainId)

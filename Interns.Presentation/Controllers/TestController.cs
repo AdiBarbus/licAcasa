@@ -4,6 +4,8 @@ using System.Web.Mvc;
 using Interns.Core.Data;
 using Interns.Services.IService;
 using log4net;
+using Interns.Services.Models;
+
 
 namespace Interns.Presentation.Controllers
 {
@@ -11,10 +13,12 @@ namespace Interns.Presentation.Controllers
     {
         private static readonly ILog Log = LogManager.GetLogger(typeof(TestController));
         private readonly ITestService testService;
+        private readonly IAnswerService answerService;
 
-        public TestController(ITestService service)
+        public TestController(ITestService service, IAnswerService answerServ)
         {
             testService = service;
+            answerService = answerServ;
         }
 
         [HttpGet]
@@ -35,6 +39,32 @@ namespace Interns.Presentation.Controllers
             return View(qas);
         }
 
+        [HttpGet]
+        public ActionResult Test(int id)
+        {
+            return View();
+        }
+
+
+        [HttpGet]
+        [Route("test/TakeTest/{testId}")]
+        public ActionResult TakeTest(int testId)
+        {
+            QAModelView model = new QAModelView();
+            Log.Debug($"Getting the adverise with the domain id:{testId}");
+
+            try
+            {
+                model.Questions = testService.GetQuestionsByTests(testId);
+                model.Answers = answerService.GetAnswers();
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+            }
+
+            return View(model);
+        }
 
         [HttpGet]
         [Authorize(Roles = "Admin")]

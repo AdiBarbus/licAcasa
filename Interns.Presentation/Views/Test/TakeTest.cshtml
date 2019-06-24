@@ -1,0 +1,21 @@
+﻿@model Interns.Services.Models.QAModelView
+
+@{
+    ViewBag.Title = "The Test";
+}
+
+<h2>Good Luck!</h2>
+
+
+@foreach (var item in Model.Questions)
+{
+    <div>@item.Quest</div>
+    <ul>
+        @foreach (var item2 in Model.Answers.Where(e => e.QuestionId == item.Id))
+        {
+        <li>
+            @Html.DisplayFor(modelItem => item2.Ans)
+        </li>
+        }
+    </ul>
+}
